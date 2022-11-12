@@ -1,0 +1,25 @@
+{
+  "name": "node-react-planner",
+  "version": "0.1.0",
+  "description": "Threejs Floor Planner built with node and reactjs",
+  "repository": "https://gitlab.com/amplify2/planner",
+  "author": "fullstack202 <erion.p.012@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "postinstall": "cd client && yarn install",
+    "start": "node ./bin/www",
+    "build": "cd client && yarn build && cd .. && cp -R client/build/. public/ && mv public/index.html public/app.html",
+    "dev": "concurrently \"nodemon\" \" cd client && yarn start\""
+  },
+  "dependencies": {
+    "concurrently": "^7.0.0",
+    "cors": "^2.8.5",
+    "debug": "^4.3.3",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "http-errors": "^2.0.0",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.13.0"
+  }
+}
