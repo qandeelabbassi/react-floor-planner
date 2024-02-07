@@ -68,3 +68,8 @@ Follow these steps to build and run the app for production:
 1.  **For server:**
     - NODE_ENV= either development or production
     - PORT= express server port
+
+## Screenshots
+<img width="1792" alt="image" src="https://github.com/qandeelabbassi/react-floor-planner/assets/14296772/e90b2269-8838-4b4d-b175-8c406afee133">
+<img width="1792" alt="image" src="https://github.com/qandeelabbassi/react-floor-planner/assets/14296772/69cf08c8-5187-4b77-97ee-0e3e353ef14a">
+
